@@ -4,12 +4,6 @@
 #include <algorithm>
 #include <initializer_list>
 
-#pragma once
-#include <iostream>
-#include <exception>
-#include <algorithm>
-#include <initializer_list>
-
 /**
  * @brief A fixed-size array class template.
  *

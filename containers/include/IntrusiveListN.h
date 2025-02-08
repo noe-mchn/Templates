@@ -175,7 +175,7 @@ public:
 
         std::size_t offset =
             reinterpret_cast<std::size_t>(
-                &reinterpret_cast<const volatile char&>((((T*)0)->*HookPtr))
+                &reinterpret_cast<const volatile char&>((((T*)0)->*HookPtr))  // Take this part on Internet
                 );
 
         char* rawPtr = reinterpret_cast<char*>(hook) - offset;

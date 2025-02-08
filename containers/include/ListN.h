@@ -5,7 +5,7 @@
 #include <algorithm>
 #include <memory>
 #include <limits>
-#include <iterator>    // For std::reverse_iterator
+#include <iterator>
 
 /**
  * @brief A doubly linked list implementation.

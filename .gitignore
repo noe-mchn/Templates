@@ -1,0 +1,4 @@
+build/*
+doxygen_log.txt/*
+html/*
+Latex/*
